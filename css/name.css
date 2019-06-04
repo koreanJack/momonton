@@ -1,0 +1,40 @@
+.name,
+.hello {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.name {
+    text-align: center;
+}
+
+.name input {
+    appearance: none;
+    border: none;
+    background: none;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    margin-top: 6px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.name input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.name input:active, .name input:focus{
+    outline: none;
+}
+
+.hello {
+    border: none;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 12px;
+}
